@@ -43,7 +43,8 @@ p, a {font-weight: 400;}
   margin-left: -75px;
 }
 /* Main Nav */
-#main_nav .nav-item .nav-link:hover { background-color:  #721732; color: #fff;}
+#main_nav .nav-item .nav-link:hover { font-weight: 500; background-color:  #721732; color: #fff;}
+#main_nav .nav-item .nav-link {font-weight: 600; }
 /* Home */
 #index_banner {
   background-image: url('./../img/banner-bg-01.jpg');
