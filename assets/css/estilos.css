@@ -78,8 +78,8 @@ p, a {font-weight: 400;}
   cursor: pointer;
 }
 .service-work .service-work-vertical {
-	background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg,  rgba(114,23,50,1) 0%, rgba(176,127,142,0.5) 47%, rgba(245,245,245,0.9) 100%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -89,16 +89,16 @@ p, a {font-weight: 400;}
   transition: .5s;
 }
 .service-work .service-work-vertical:hover * {
-  color: #000;
-  border-color: #000;
+  color: #fff;
+  border-color: #fff;
   transition: .5s;
 }
 .recent-work.card{
   border-radius: 10px !important;
 }
 .recent-work .recent-work-vertical {
-	background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+	background: rgb(2,0,36);
+background: linear-gradient(0deg,  rgba(114,23,50,0.7) 0%, rgba(176,127,142,0.5) 47%, rgba(245,245,245,0.5) 100%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
@@ -198,3 +198,15 @@ footer a.text-light:hover {
 
 }
 
+.service-btn:active{
+  color: #721732 !important;
+
+}
+.service-btn:hover{
+  color: #721732 !important;
+   
+}
+
+.service-btn:focus{
+  color: #721732 !important;
+}
