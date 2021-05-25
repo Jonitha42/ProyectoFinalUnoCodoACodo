@@ -97,12 +97,13 @@ p, a {font-weight: 400;}
   border-radius: 10px !important;
 }
 .recent-work .recent-work-vertical {
-	background: rgb(2,0,36);
-background: linear-gradient(0deg,  rgba(114,23,50,0.7) 0%, rgba(176,127,142,0.5) 47%, rgba(245,245,245,0.5) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg,  rgba(114,23,50,1) 0%, rgba(176,127,142,0.5) 47%, rgba(245,245,245,0.9) 100%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
   cursor: pointer;
+
 }
 .recent-work .recent-work-vertical:hover {
   background-position: 0% 0%;
