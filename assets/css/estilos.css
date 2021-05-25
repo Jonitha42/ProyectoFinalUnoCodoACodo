@@ -211,3 +211,12 @@ footer a.text-light:hover {
 .service-btn:focus{
   color: #721732 !important;
 }
+
+
+.bg-image{
+ background: url(https://image.freepik.com/free-photo/top-view-delicious-organic-wine-grapes_23-2148722561.jpg) no-repeat center ;
+ background-size: cover;
+ min-height: 900px;
+
+
+}
