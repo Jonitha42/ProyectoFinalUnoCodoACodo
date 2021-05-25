@@ -214,9 +214,7 @@ footer a.text-light:hover {
 
 
 .bg-image{
- background: url(https://image.freepik.com/free-photo/top-view-delicious-organic-wine-grapes_23-2148722561.jpg) no-repeat center ;
+ background: url(https://images.pexels.com/photos/5086615/pexels-photo-5086615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center ;
  background-size: cover;
- min-height: 900px;
-
-
+ min-height: 800px;
 }
