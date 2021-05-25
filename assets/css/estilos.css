@@ -217,4 +217,12 @@ footer a.text-light:hover {
  background: url(https://images.pexels.com/photos/5086615/pexels-photo-5086615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center ;
  background-size: cover;
  min-height: 800px;
+
+}
+
+
+.bg-trans{
+  background-color: rgba(88, 13, 78, 0.3);
+  border-radius: 20px;
+  padding-bottom: 20px;
 }
