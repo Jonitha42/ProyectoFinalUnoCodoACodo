@@ -152,6 +152,9 @@ p, a {font-weight: 400;}
 }
 .team-member:hover .team-member-img {
   padding: 10px !important;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg,  rgba(114,23,50,1) 0%, rgba(114,23,50,1) 47%, rgba(114,23,50,1) 100%);
+  
 }
 
 /* Work */
@@ -225,4 +228,16 @@ footer a.text-light:hover {
   background-color: rgba(88, 13, 78, 0.3);
   border-radius: 20px;
   padding-bottom: 20px;
+}
+
+
+.card-cliente{
+  background: #721732 ;
+  border: 1px solid #fff;
+}
+
+
+.card-cliente:hover{
+  cursor: pointer;
+  background: #921a3c;
 }
