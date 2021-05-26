@@ -245,3 +245,22 @@ footer a.text-light:hover {
 .barra{
   background-color: #721732;
 }
+
+.contenedor-banner{
+  background: rgba(114,23,50,1);
+}
+
+.contenedor-bannerdos{
+  background: rgba(114,23,50,0.5);
+}
+
+.contact-btn{
+  background: rgba(114,23,50,1);
+  color: #fff;
+}
+
+.contact-btn:hover{
+  color: #721732;
+  background: #fff;
+  border: 1px solid #721732;
+}
