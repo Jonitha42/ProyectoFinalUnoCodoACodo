@@ -220,8 +220,15 @@ footer a.text-light:hover {
  background: url(https://images.pexels.com/photos/5086615/pexels-photo-5086615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center ;
  background-size: cover;
  min-height: 800px;
-
 }
+
+.bg-imagedos{
+  background: url(https://cdn.pixabay.com/photo/2020/01/31/21/47/wine-4809061_960_720.jpg) no-repeat center ;
+  background-size: cover;
+  min-height: 800px;
+ }
+
+
 
 
 .bg-trans{
@@ -230,6 +237,9 @@ footer a.text-light:hover {
   padding-bottom: 20px;
 }
 
+.color-texto{
+  color: #721732;
+}
 
 .card-cliente{
   background: #721732 ;
@@ -261,6 +271,17 @@ footer a.text-light:hover {
 
 .contact-btn:hover{
   color: #721732;
+  background: #fff;
+  border: 1px solid #721732;
+}
+
+.contact-btn:focus{
+  color: #721732;
+  background: #fff;
+  border: 1px solid #721732;
+}
+.contact-btn:active{
+ 
   background: #fff;
   border: 1px solid #721732;
 }
