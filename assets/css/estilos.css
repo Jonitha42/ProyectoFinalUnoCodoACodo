@@ -181,6 +181,9 @@ p, a {font-weight: 400;}
 .pricing-table,
 .pricing-horizontal {
   border-radius: 15px !important;
+  border-color: #721732;
+ 
+  
 }
 /* Contact */
 #floatingtextarea {
@@ -288,3 +291,4 @@ footer a.text-light:hover {
   background: #fff;
   border: 1px solid #721732;
 }
+
