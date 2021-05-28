@@ -187,7 +187,8 @@ p, a {font-weight: 400;}
 }
 /* Contact */
 #floatingtextarea {
-  height: 150px
+  height: 150px;
+  
 }
 /* Footer */
 footer a.text-light:hover {
@@ -275,20 +276,26 @@ footer a.text-light:hover {
   color: #fff;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
   color: #721732;
   background: #fff;
   border: 1px solid #721732;
 }
 
-.contact-btn:focus{
+.contact-btn:focus {
   color: #721732;
   background: #fff;
   border: 1px solid #721732;
 }
-.contact-btn:active{
- 
+
+.contact-btn:active {
   background: #fff;
   border: 1px solid #721732;
 }
 
+.form-control:focus {
+  box-shadow: none;
+  border-width: 2px;
+  box-shadow: 4px -3px #721732;
+  border-color: #721732;
+}
