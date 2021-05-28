@@ -2,11 +2,11 @@
 <html lang="es">
 
 <head>
-  <title>Agencia de Marketing</title>
+    <title >CAC WINES</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/img/wine-solid-24.png">
     <!-- Load Require CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font CSS -->
@@ -18,48 +18,83 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
-	       <span class="text-dark h4">Marke-</span><span class="text-primary h4">Ting</span></a>
-           
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- Header 
+	nav = cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual 
+	o a otros documentos
+	-->
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                       <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
-						<!-- px = padding y mx es el margin 
-						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Trabajos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Precios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contáctanos</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
-                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center ">
+            
+                <a class="navbar-brand " href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                <i class='bx bxs-wine ' style='color:#610e2d'> </i>
+                <span> CAC - WINES </span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0 text-black" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline rounded-pill px-3" href="index.html">Home</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline rounded-pill px-3" href="pricing.html">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline rounded-pill px-3" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex ">
+                        <a class="nav-link" href="#"><i  class='bx bx-user bx-sm bx-flashing-hover  ' style="color: #721732" >     </i></a>
+                        <a class="nav-link" href="#"><i class='bx bx-cart bx-sm  bx-flashing-hover  ' style="color: #721732" ></i></a>
+                        <a class="nav-link" href="#"><i class='bx bx-heart bx-sm bx-flashing-hover ' style="color: #721732" > </i></a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!-- Close Header -->
+        </nav>
+    <!----------------------------------------------------------- Fin de los iconos del menu
+    
+        <!- Close Header -->
+     <!----------------------------------------------------------- Fin del Header-->
 
 
     <!-- Start Banner Hero -->
@@ -146,7 +181,7 @@
 
                     <div class="col-lg-6 mb-4">
                         <div class="form-floating">
-                            <input type="text" class="form-control form-control-lg light-300" id="floatingname" name="inputname" placeholder="Name">
+                            <input type="text" class="form-control form-control-lg light-300 " id="floatingname" name="inputname" placeholder="Name">
                             <label for="floatingname light-300">Nombre</label>
                         </div>
                     </div><!-- End Input Name -->
@@ -200,15 +235,15 @@
     <!-- End Contact -->
 
 
-     <!-- Start Footer -->
-    <footer class="bg-secondary pt-4">
+       <!-- Start Footer -->
+       <footer class="pt-4" style="background-color: #721732;">
         <div class="container">
             <div class="row py-4">
 
                 <div class="col-lg-3 col-12 align-left">
                     <a class="navbar-brand" href="index.html">
-                        <i class='bx bx-buildings bx-sm text-light'></i>
-                        <span class="text-light h5">Marke-</span><span class="text-light h5 semi-bold-600">Ting</span>
+                        <i class='bx bxs-wine  bx-sm text-light'></i>
+                        <span class="text-light h5">CAC-</span><span class="text-light h5 semi-bold-600">WINES</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -255,10 +290,6 @@
 								href="about.html">Nosotros</a>
                             </li>
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-								href="work.html">Trabajos</a>
-                            </li>
-                            <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
 								href="pricing.html">Precios</a>
                             </li>
@@ -274,27 +305,27 @@
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Marcas</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Negocios</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Marketing</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Redes Sociales</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Soluciones Digitales</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                         <li class="pb-2">
                             <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
-							href="#">Gráfica</a>
+							href="#">Lorem Ipsum</a>
                         </li>
                     </ul>
                 </div>
@@ -316,19 +347,23 @@
             </div>
         </div>
 
-        <div class="w-100 bg-primary py-3">
+        <div class="w-100 py-3" style="background-color: #610e2d;">
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2021 Marke-Ting. Todos los derechos reservados.
+                            © Copyright 2021 CaC WINES. Todos los derechos reservados.
                         </p>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-4 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
                             Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
-							href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack</strong></a>
+							href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack /</strong></a>
+                            Editado por : <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://github.com/Jonitha42" target="_blank"><strong>YoniPardo</strong></a>
                         </p>
+                    
+
                     </div>
                 </div>
             </div>
